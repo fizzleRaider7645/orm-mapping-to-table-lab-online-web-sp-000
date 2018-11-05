@@ -40,6 +40,6 @@ class Student
     
   end
   
-  def self.ceate
+  def self.CREATE
   
 end

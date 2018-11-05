@@ -35,7 +35,7 @@ class Student
       VALUES (?, ?);
       SQL
     DB[:conn].execute(sql, self.name, self.grade)
-    last_insert = DB[:conn].execute("SELECT * FROM students ORDER BY id DESC LIMIT 1;").flaten
+    last_insert = DB[:conn].execute("SELECT * FROM students ORDER BY id DESC LIMIT 1;").flatten
     
   end
   

@@ -36,7 +36,7 @@ class Student
       SQL
     DB[:conn].execute(sql, self.name, self.grade)
     last_insert = DB[:conn].execute("SELECT * FROM students ORDER BY id DESC LIMIT 1;").flatten
-    @id = 
+    @id = last_insert[0]
     
   end
   

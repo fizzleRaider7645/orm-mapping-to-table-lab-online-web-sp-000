@@ -12,6 +12,7 @@ class Student
   end
   
    def self.create_table
+     p DB[:connect]
   end
   
 end

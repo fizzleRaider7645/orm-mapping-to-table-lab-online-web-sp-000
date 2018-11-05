@@ -40,4 +40,6 @@ class Student
     
   end
   
+  def self.ceate
+  
 end

@@ -40,6 +40,6 @@ class Student
     
   end
   
-  def self.CREATE
+  def self.create
   
 end
